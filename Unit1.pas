@@ -22,7 +22,7 @@ implementation
 
 {$R *.dfm}
 
-function test():string;
+function test2():string;
 begin
 result:='hello,test';
 end;
