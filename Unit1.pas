@@ -22,6 +22,11 @@ implementation
 
 {$R *.dfm}
 
+function test():string;
+begin
+result:='hello,test';
+end;
+
 procedure TForm1.FormCreate(Sender: TObject);
 begin
 showmessage('hello,delphi');
